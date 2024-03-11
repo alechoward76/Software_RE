@@ -97,7 +97,6 @@ def main():
     checksum = calculated_checksum(file)
     file += checksum
     name = output_name()
-    
     with open(name + ".egi", "wb") as f:
         f.write(file)
 
